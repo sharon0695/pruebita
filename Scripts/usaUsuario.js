@@ -44,6 +44,6 @@ function filtrarIgualMarca(bd, marcad){
     let p = bd.find(x => x.marca = marcad);
     console.log(p)
     if(p){
-     res += `Usuario: ${p.nombre} Procesador: ${p.procesador} CostoEnergetico ${p.calcularCostoEnergetico()}\n`
+     res += `Usuario: ${p.nombre} Procesador: ${p.suComputador.procesador} CostoEnergetico ${p.calcularCostoEnergetico()}\n`
     } return res;
 }
