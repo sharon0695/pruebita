@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo Vehiculos</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script defer src="Scripts/usaUsuario.js" type="module"></script>
+</head>
+<body>
+    <main>
+        <table>
+            <caption>Practica de Repaso POO en JavaScript</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">Atributo</th>
+                    <th >Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Cedula</td>
+                    <td>
+                        <input type="text" value="123456" name="" id="laCedula">                           
+                    </td>
+                </tr>
+                <tr>
+                    <td>Edad</td>
+                    <td>
+                        <input type="text" value="20" name="" id="laEdad">                           
+                    </td>
+                </tr> 
+                <tr>
+                    <td colspan="2">Nombre</td>
+                    <td colspan="2">
+                        <input type="text" value="Sharon" name="" id="elNombre">                           
+                    </td>
+                </tr>  
+                <tr>
+                    <td rowspan="3">Pasatiempo</td>
+                    <td>Nombre</td>
+                    <td>
+                        <input type="text" value="Lectura" name="" id="elNombre2">                           
+                    </td>
+                </tr> 
+                <tr>
+                    <td>FrecuenciaMensual</td>
+                    <td>
+                        <input type="text" value="10" name="" id="laFrecuencia">                           
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <input type="text" value="10" name="" id="elTipo">                           
+                    </td>
+                   <td>
+                                <input type="text" value="" name="" id="laCedula2">                           
+                                </td>
+                </tr> 
+                                                               
+            </tbody>
+        </table>
+        <br>
+        <fieldset>
+            <legend>Funcionalidades</legend> 
+            <button id="ingresar">Ingresar</button><button id="consultar">Consultar</button><br><br>
+            <textarea id="salida" cols="80" rows="8" readonly>....</textarea>   
+        </fieldset>  
+        <hr>
+    </main>
+    <footer>
+        <p> <small>Creado por Sharon Abella, para el curso de EDyA1 en el Universidad Autónomoa de Occidente</small> </p>
+    </footer>
+</body>
+</html>
